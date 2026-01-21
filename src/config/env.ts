@@ -14,7 +14,6 @@ export const API_DEPLOYMENT_ENVIRONMENTS = Object.values(DeploymentEnv);
 export const SERVERLESS_ENVIRONMENTS = [
     DeploymentEnv.VERCEL,
     DeploymentEnv.CLOUDFLARE_WORKERS,
-    DeploymentEnv.RENDER,
 ];
 
 //
