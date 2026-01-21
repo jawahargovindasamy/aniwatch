@@ -179,36 +179,8 @@
             margin: 1rem auto 1.5rem auto;
         }
 
-        .api-stats-container {
-            display: flex;
-            gap: .2rem .5rem;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
-        }
-
-        .api-stats-container a {
-            flex-shrink: 0;
-            user-select: none;
-        }
-
-        .contributors {
-            margin-top: 1rem;
-            text-align: center;
-        }
     </style>
 </head>
-
-<!--
-IMPORTANT:
-    1.  This API is just an unofficial API for hianimez.to and 
-        is in no other way officially related to the same.
-    2.  The content that this API provides is not mine, nor is 
-        it hosted by me. These belong to their respective 
-        owners. This API just demonstrates how to build an API
-        that scrapes websites and uses their content.
--->
 
 <body>
     <span class="overlay">
@@ -221,55 +193,12 @@ IMPORTANT:
             <span style="-webkit-text-fill-color: var(--accent)">⚔️</span>
         </h2>
 
-        <div class="api-stats-container">
-            <a href="https://github.com/ghoshRitesh12/aniwatch-api/stargazers">
-                <img src="https://img.shields.io/github/stars/ghoshRitesh12/aniwatch-api?style=social" alt="Stars"
-                    decoding="async">
-            </a>
-            <a href="https://github.com/ghoshRitesh12/aniwatch-api/network/members">
-                <img src="https://img.shields.io/github/forks/ghoshRitesh12/aniwatch-api?style=social" alt="Forks"
-                    decoding="async">
-            </a>
-            <a href="https://github.com/ghoshRitesh12/aniwatch-api/issues?q=is%3Aissue+is%3Aopen+">
-                <img src="https://img.shields.io/github/issues/ghoshRitesh12/aniwatch-api?style=social&logo=github"
-                    alt="Issues" decoding="async">
-            </a>
-            <a href="https://github.com/ghoshRitesh12/aniwatch-api/releases/latest">
-                <img src="https://img.shields.io/github/v/release/ghoshRitesh12/aniwatch-api?display_name=release&style=social&logo=github"
-                    alt="Version" decoding="async">
-            </a>
-        </div>
-
         <div style="text-align: center;">
             <div class="img-wrapper">
                 <img draggable="false" id="anime_girl"
                     src="https://raw.githubusercontent.com/ghoshRitesh12/aniwatch-api/refs/heads/main/public/img/hianime_v2.png"
                     alt="kawai_anime_girl" decoding="async" fetchpriority="high" style="user-select: none;" />
             </div>
-
-            <div style="display: flex; align-items: center; gap: .5rem; text-underline-offset: 3px;">
-                <a href="https://github.com/ghoshRitesh12/aniwatch-api/releases/latest" rel="noopener noreferer">
-                    Checkout latest changelogs
-                </a>
-
-                <span style="font-size: .9rem;">•</span>
-
-                <a href="https://github.com/ghoshRitesh12/aniwatch-api#documentation" rel="noopener noreferer">
-                    Visit docs for more information
-                </a>
-            </div>
-        </div>
-
-        <div class="contributors">
-            <p style="text-wrap: balance; line-height: 1.2;">Thanks to the following people for keeping this
-                project alive and
-                relevant.</p>
-
-            <a href="https://github.com/ghoshRitesh12/aniwatch-api/graphs/contributors"
-                style="display: block; margin-bottom: 1rem; user-select: none;">
-                <img src="https://contrib.rocks/image?repo=ghoshRitesh12/aniwatch-api" alt="Contributors"
-                    decoding="async">
-            </a>
         </div>
     </section>
 </body>
